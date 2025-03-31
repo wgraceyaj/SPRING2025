@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--Wyntergrace Yang 3/16/25-->
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="midtermproject.css">
+        <title>Portfolio</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+        <h1>Portfolio</h1>
+        </header>
+        <nav><b><ul>
+            <li><a href="home.html"> Home</a></li>
+            &nbsp
+            <li><a href="portfolio.html"> Portfolio</a></li>
+            &nbsp
+            <li><a href="aboutme.html"> About Me</a></li>
+            </ul></b></nav>
+    </body>
+    <main>
+        <h2>Memories worth everything</h2>
+        <p>Take A Look Inside My Portfolio
+        </p>
+        <p><img src="midtermproject/DSC07594_Copy.jpg" alt="Joseph + Heyma"></p>
+        <p><img src="midtermproject/DDSC07346.jpg" alt="Hope"></p>
+        <p><img src="midtermproject/DSC05231_Copy.jpg" alt="Immanuel + Mikala"></p>
+        <p><img src="midtermproject/DSC01796.jpg" alt="Jimmy + Julia"></p>
+        <p>To view more images, visit: <a href="instagram.com/wyntersphoto"> wyntersphoto</a></p>
+    </main>
+    <footer>
+        <small><em>© 2025 Wynter's Photo | All Rights Reserved</em></small>
+        <br>
+        <p>
+            <a href="wyntersphoto@gmail.com"> wyntersphoto@gmail.com</a>
+        </p>
+    </footer>
+</html>
