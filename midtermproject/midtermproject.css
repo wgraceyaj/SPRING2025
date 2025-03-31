@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ed820e;
+    text-align: center;
+}
+main {
+    background-color: #fda172;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+footer {
+    background-color: #fddb53;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 20%;
+}
+li {
+    line-height: 1.5;
+}
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #232d23;
+}
