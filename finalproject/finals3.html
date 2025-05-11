@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--Wyntergrace Yang 4/7/25-->
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="finalstyles.css">
+        <title>Form</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+        <h1>Choose your AOT</h1>
+        </header>
+        <nav><b>
+        <a href="home.html"> AOT</a>
+        &nbsp
+        <a href="titans.html"> Titans</a>
+        &nbsp
+        <a href="finals3.html"> Form</a>
+        &nbsp
+        <a href="finals4.html"> Credits</a>
+        </b></nav>
+    </body>
+    <main>
+        <img src="file:///Users/wyntergraceyang/Desktop/Web110/finalproject/attackontitancharacters.webp" alt="AOT">
+        <form action="https://webdevbasics.net/scripts/demo.php" method="POST">
+            <div>
+            <label for="fullname">Titan Type:</label>
+            <input type="text" id="titantype" name="titantype">
+            </div>
+
+            <div>
+            <label for="maincharacter">Main Character:</label>
+            <input type="text" id="maincharacter" name="maincharacter">
+            </div>
+
+            <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            </div>
+
+            <div>
+            <label for="topic">Walls:</label>
+            <select id="topic" name="topic">
+                <option>Rose</option>
+                <option>Sina</option>
+                <option>Maria</option>
+            </select>
+            </div>
+
+            <div>
+                <label>Military:</label>
+
+                <label for="Garrison">Garrison Regiment</label>
+                <input type="radio" id="Garrison" name="military" value="Garrison">
+
+                <label for="MP">Military Police Brigade</label>
+                <input type="radio" id="MP" name="military" value="MP">
+
+                <label for="Survey">Survey Corps</label>
+                <input type="radio" id="Survey" name="military" value="Survey">
+            </div>
+
+            <label for="message">Which Intelligent Titan would you be and why?</label>
+            <textarea type="text" id="message" name="message" rows="5" required></textarea>
+
+            <div>
+            <input type="reset">
+            <input type="submit" value="Send Message">
+            </div>
+
+            <div>
+            <label for="Eldian">Eldian:</label>
+            <input type="checkbox" id="Eldian" name="Eldian">
+            <label for="Marleyan">Marleyan:</label>
+            <input type="checkbox" id="Marleyan" name="Marleyan">
+            <label for="Ackerman">Ackerman:</label>
+            <input type="checkbox" id="Ackerman" name="Ackerman">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <small><em>© 2025 AOT | All Rights Reserved</em></small>
+    </footer>
+</html>
